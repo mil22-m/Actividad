@@ -26,6 +26,6 @@ for a in range(1, max_length + 1):
 if found:
     print(f"contraseña encontrada")
     print(f"numero de intentos: {intentos}")
-    print(f"Tiempo de: {acaba_tiempo - tiempo_inicia:.4f} segundos")
+    print(f"tiempo de: {acaba_tiempo - tiempo_inicia:.4f} segundos")
 else:
     print(" Contraseña no encontrada")
